@@ -1361,7 +1361,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4":
   version: 7.12.1
   resolution: "@babel/runtime@npm:7.12.1"
   dependencies:
@@ -1431,25 +1431,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/core@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@chakra-ui/core@npm:0.5.2"
+"@chakra-ui/core@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@chakra-ui/core@npm:0.8.0"
   dependencies:
-    "@reach/auto-id": 0.2.0
-    "@styled-system/css": 5.0.13
-    "@styled-system/should-forward-prop": 5.0.12
-    "@types/styled-system": 5.0.1
+    "@reach/auto-id": 0.10.2
+    "@styled-system/css": 5.1.5
+    "@styled-system/should-forward-prop": 5.1.5
+    "@types/styled-system": 5.1.9
     aria-hidden: ^1.1.1
-    body-scroll-lock: ^2.6.4
+    body-scroll-lock: ^3.0.1
     color: 3.1.2
+    copy-to-clipboard: 3.3.1
     exenv: ^1.2.2
     popper.js: ^1.15.0
-    pretty-num: 0.3.0
-    react-animate-height: 2.0.9
+    react-animate-height: 2.0.21
     react-focus-lock: ^2.2.1
     react-spring: ^8.0.27
-    styled-system: 5.0.5
-    toasted-notes: 3.0.0
+    styled-system: 5.1.5
+    toasted-notes: 3.2.0
     use-dark-mode: 2.3.1
   peerDependencies:
     "@emotion/core": 10.x
@@ -1457,7 +1457,7 @@ __metadata:
     emotion-theming: 10.x
     react: ">= 16.8"
     react-dom: ">= 16.8"
-  checksum: b4dde5ec6d6858fdb8b2bac8800a7150022077e009fc504f00803c722ad6a3e2f0a37e963559ae15add2bab8bc19a2f019e090ac8eed4e8d97b59ac5a7f8417f
+  checksum: 370fa7d0b467e82b3dc5c390d3f62cf7e30f2f56270006f05806ea0e6099100d1c623a27b2ef0f04af3edc79e79b65e1e95c172c12ec8efc6d1e3f0f4df84ad2
   languageName: node
   linkType: hard
 
@@ -1693,13 +1693,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reach/auto-id@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@reach/auto-id@npm:0.2.0"
+"@reach/auto-id@npm:0.10.2":
+  version: 0.10.2
+  resolution: "@reach/auto-id@npm:0.10.2"
+  dependencies:
+    "@reach/utils": ^0.10.2
+    tslib: ^1.11.2
   peerDependencies:
     react: ^16.8.0
     react-dom: ^16.8.0
-  checksum: 7c57069396187b7e4c8da01d5c587d6eb0eeb27021d41c26c83cdefcc73d332e4ef99323d5f1c4dccd89a84ef4e9ec3897fa2e601fac26fffe87199e337aa42f
+  checksum: 8f9b4cfc8fc21bfbc6cbd346fd9c2a683dd45c997bac349ea76628ca56ce36270399b020acd4836ed35710ec59bc247b67260036eba3c8a8ef9c40ca283ad6da
   languageName: node
   linkType: hard
 
@@ -1714,6 +1717,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@reach/utils@npm:^0.10.2":
+  version: 0.10.5
+  resolution: "@reach/utils@npm:0.10.5"
+  dependencies:
+    "@types/warning": ^3.0.0
+    tslib: ^2.0.0
+    warning: ^4.0.3
+  peerDependencies:
+    react: ^16.8.0
+    react-dom: ^16.8.0
+  checksum: 6788909a6e87eae5f80cd923cb5b3a1426ade7f883014b74d49f2abd5a599f77900ae71635b9f26692c20a25d55a45b59f6fa8daa83d012f5e384dcb3c7791cb
+  languageName: node
+  linkType: hard
+
 "@reach/visually-hidden@npm:^0.1.4":
   version: 0.1.4
   resolution: "@reach/visually-hidden@npm:0.1.4"
@@ -1724,7 +1741,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/background@npm:^5.0.5, @styled-system/background@npm:^5.1.2":
+"@styled-system/background@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/background@npm:5.1.2"
   dependencies:
@@ -1733,7 +1750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/border@npm:^5.0.5, @styled-system/border@npm:^5.1.5":
+"@styled-system/border@npm:^5.1.5":
   version: 5.1.5
   resolution: "@styled-system/border@npm:5.1.5"
   dependencies:
@@ -1742,7 +1759,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/color@npm:^5.0.5, @styled-system/color@npm:^5.1.2":
+"@styled-system/color@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/color@npm:5.1.2"
   dependencies:
@@ -1751,7 +1768,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/core@npm:^5.0.5, @styled-system/core@npm:^5.1.2":
+"@styled-system/core@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/core@npm:5.1.2"
   dependencies:
@@ -1760,21 +1777,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/css@npm:5.0.13":
-  version: 5.0.13
-  resolution: "@styled-system/css@npm:5.0.13"
-  checksum: 8fd5026bbabb85dd65c9c7d9ea577a88518f9dbc149154f912a04ce6cc0c612dec5f141489f70d53c2d5acb1230bc00f47adb519a571242a4fe4a7a6ac64199e
-  languageName: node
-  linkType: hard
-
-"@styled-system/css@npm:^5.1.5":
+"@styled-system/css@npm:5.1.5, @styled-system/css@npm:^5.1.5":
   version: 5.1.5
   resolution: "@styled-system/css@npm:5.1.5"
   checksum: 3b3322754e87992b1ce8dba0e58241c6a07858e45373179920dd273ca378e4f5f8abff1dcf2672e708ae980ae5ebaffcd13a0ab5d3918a1b79b1292324e35ab2
   languageName: node
   linkType: hard
 
-"@styled-system/flexbox@npm:^5.0.5, @styled-system/flexbox@npm:^5.1.2":
+"@styled-system/flexbox@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/flexbox@npm:5.1.2"
   dependencies:
@@ -1783,7 +1793,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/grid@npm:^5.0.5, @styled-system/grid@npm:^5.1.2":
+"@styled-system/grid@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/grid@npm:5.1.2"
   dependencies:
@@ -1792,7 +1802,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/layout@npm:^5.0.5, @styled-system/layout@npm:^5.1.2":
+"@styled-system/layout@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/layout@npm:5.1.2"
   dependencies:
@@ -1801,7 +1811,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/position@npm:^5.0.5, @styled-system/position@npm:^5.1.2":
+"@styled-system/position@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/position@npm:5.1.2"
   dependencies:
@@ -1810,7 +1820,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/shadow@npm:^5.0.5, @styled-system/shadow@npm:^5.1.2":
+"@styled-system/shadow@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/shadow@npm:5.1.2"
   dependencies:
@@ -1819,18 +1829,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/should-forward-prop@npm:5.0.12":
-  version: 5.0.12
-  resolution: "@styled-system/should-forward-prop@npm:5.0.12"
+"@styled-system/should-forward-prop@npm:5.1.5":
+  version: 5.1.5
+  resolution: "@styled-system/should-forward-prop@npm:5.1.5"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.1
     "@emotion/memoize": ^0.7.1
-    styled-system: ^5.0.12
-  checksum: 7add747ea8730b2b83e564063be373060e62a78ced412144bdf30f6c0cbfdd6458ee993cf36fbfaed515f58dd8ae9f75d5dca2c2cdcb47820bced7be510dc5f7
+    styled-system: ^5.1.5
+  checksum: 88a12889b1ae56cddc9d1b20bec0af4d101d0f06cfc73d89c8c70fc0cf1a9a11dec3a38a17665601a898de5195e65ed09c383d7ba539f3ebbba1807591aa3581
   languageName: node
   linkType: hard
 
-"@styled-system/space@npm:^5.0.5, @styled-system/space@npm:^5.1.2":
+"@styled-system/space@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/space@npm:5.1.2"
   dependencies:
@@ -1839,7 +1849,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/typography@npm:^5.0.5, @styled-system/typography@npm:^5.1.2":
+"@styled-system/typography@npm:^5.1.2":
   version: 5.1.2
   resolution: "@styled-system/typography@npm:5.1.2"
   dependencies:
@@ -1848,7 +1858,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-system/variant@npm:^5.0.5, @styled-system/variant@npm:^5.1.5":
+"@styled-system/variant@npm:^5.1.5":
   version: 5.1.5
   resolution: "@styled-system/variant@npm:5.1.5"
   dependencies:
@@ -1862,6 +1872,13 @@ __metadata:
   version: 7.0.6
   resolution: "@types/json-schema@npm:7.0.6"
   checksum: 820cabe35ac915b93e38b0c01957e5c49d7d9f69251dddfbf39af0ff4fe24f6e08b39e55603e0d212dea7bcaa383b1218b58a738d1c02013dc22df06547ff238
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.14.5":
+  version: 14.14.5
+  resolution: "@types/node@npm:14.14.5"
+  checksum: 4916d5c46e604be9b76c69300efdf26538f74ad63a5df572a6b66b95238ddbed3c2bcd5a9748c6ec2ef1bf529d84b3f3a53a0eed54d1f46eaa29471cbb7b1406
   languageName: node
   linkType: hard
 
@@ -1888,7 +1905,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^16.8.10":
+"@types/react@npm:*, @types/react@npm:^16.8.10, @types/react@npm:^16.9.54":
   version: 16.9.54
   resolution: "@types/react@npm:16.9.54"
   dependencies:
@@ -1898,12 +1915,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-system@npm:5.0.1":
-  version: 5.0.1
-  resolution: "@types/styled-system@npm:5.0.1"
+"@types/styled-system@npm:5.1.9":
+  version: 5.1.9
+  resolution: "@types/styled-system@npm:5.1.9"
   dependencies:
-    csstype: ^2.6.4
-  checksum: 04be5e5c5bfa0b3a63beffe6cb6c8e2ceacc2fa2a1de1330ce2069d988eec435eceab95bb0f2f5a4b060cb98a8699041ed8ccdd501383200bf605c8a33e24283
+    csstype: ^2.6.9
+  checksum: 6d9bc3501f2ababee8b1d55aaea59b22880f5b66b2dbbdfbbe3c81302291baabb3b6f59966c226f0fc139f28d2895151ac6112b48e5d124f214a0a196fcebd4c
+  languageName: node
+  linkType: hard
+
+"@types/warning@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@types/warning@npm:3.0.0"
+  checksum: cb7a16aa88641beceec53ce765274c1ba3a9136e3c7c53cafd769d5063ea96f8899332ce7031c6f374bd23b5713a9a733d42c369ebdb4b62daf9b7562700848c
   languageName: node
   linkType: hard
 
@@ -2577,10 +2601,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"body-scroll-lock@npm:^2.6.4":
-  version: 2.7.1
-  resolution: "body-scroll-lock@npm:2.7.1"
-  checksum: d8ca7825c768850abbe28afef9ebffc7d10fa4a7f2ba601db3b3dd0881514b3eaba1d145e5e3716407117870b73dc2700e893ad9b2f199e85796d2abe85d4061
+"body-scroll-lock@npm:^3.0.1":
+  version: 3.1.5
+  resolution: "body-scroll-lock@npm:3.1.5"
+  checksum: e8de58edc0fd7d483e3971045ff83fe6d722592d5153e9bfc9da2962a179a6522b432a4b35344bc8ae522eec080cc87301ce4ded4878f26254bf42a4f26d27ed
   languageName: node
   linkType: hard
 
@@ -3171,6 +3195,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"copy-to-clipboard@npm:3.3.1":
+  version: 3.3.1
+  resolution: "copy-to-clipboard@npm:3.3.1"
+  dependencies:
+    toggle-selection: ^1.0.6
+  checksum: 9707f2e405ca4019de1f4194565568acdf3d1dd8a59f7b8f63d0e7257648132b579461e7aeb6140169cb943cf4b6a243b377cf0437d8c10c6f5e5bb3935dea78
+  languageName: node
+  linkType: hard
+
 "core-js-compat@npm:^3.6.2":
   version: 3.6.5
   resolution: "core-js-compat@npm:3.6.5"
@@ -3364,7 +3397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^2.5.7, csstype@npm:^2.6.4":
+"csstype@npm:^2.5.7, csstype@npm:^2.6.9":
   version: 2.6.13
   resolution: "csstype@npm:2.6.13"
   checksum: 0a84ef4b068e464039ee4cc79e621a38b4b8b5c683fd12d42dbb810e6457ac454c3c7e578e4d327f958fc563fc03aec0e74b57180abd5804d6e2590ae3cf7086
@@ -4068,13 +4101,6 @@ __metadata:
   dependencies:
     map-cache: ^0.2.2
   checksum: f88983f4bf54f9a8847d15e54518535aecbfa9b7f0242604ca5cd027d88ea1469212b5dbb579233e769d0e2f4e6764bc6bbac44731fb78b9964942165c7c3048
-  languageName: node
-  linkType: hard
-
-"from-exponential@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "from-exponential@npm:1.0.0"
-  checksum: 3e5b3c9379ebc097a50d43effa2c9c34c431395b642954d5b55fd6a4fa080d2c3d223e1a7de8887712a30348b95825fd9930992f09444cd1beef4585f5feffbc
   languageName: node
   linkType: hard
 
@@ -6057,16 +6083,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"pretty-num@npm:0.3.0":
-  version: 0.3.0
-  resolution: "pretty-num@npm:0.3.0"
-  dependencies:
-    from-exponential: ^1.0.0
-    thousands: ^1.0.1
-  checksum: bbb5891bd6b86cc13d3473d412fd705bfe45a9a33cbc608d8a7d74cf2107c82f0261d02b498eb5e2a361945095c03be161ea6a5a71cc79850e756d88ae03f4f9
-  languageName: node
-  linkType: hard
-
 "process-nextick-args@npm:~2.0.0":
   version: 2.0.1
   resolution: "process-nextick-args@npm:2.0.1"
@@ -6088,7 +6104,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.7.2, prop-types@npm:^15.5.8, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2":
+"prop-types@npm:15.7.2, prop-types@npm:^15.5.8, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -6219,16 +6235,16 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"react-animate-height@npm:2.0.9":
-  version: 2.0.9
-  resolution: "react-animate-height@npm:2.0.9"
+"react-animate-height@npm:2.0.21":
+  version: 2.0.21
+  resolution: "react-animate-height@npm:2.0.21"
   dependencies:
     classnames: ^2.2.5
     prop-types: ^15.6.1
   peerDependencies:
     react: ">=15.6.2"
     react-dom: ">=15.6.2"
-  checksum: 452511a59c42be68713188d73d1adc91d3a52b39fc9054bc8deb3f2b6696e971298671c88d402eae38ac5fff032775c0606f664ec985e7fd2a5249786eabf6ba
+  checksum: c235165620f5fa47a66d70ae6b197cea431e91ab11c833c48012460cf6334cce0951c39e67264a6adfecccf18e2448a15c40da93f837db9c2a205555d54fe2f9
   languageName: node
   linkType: hard
 
@@ -7121,28 +7137,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"styled-system@npm:5.0.5":
-  version: 5.0.5
-  resolution: "styled-system@npm:5.0.5"
-  dependencies:
-    "@styled-system/background": ^5.0.5
-    "@styled-system/border": ^5.0.5
-    "@styled-system/color": ^5.0.5
-    "@styled-system/core": ^5.0.5
-    "@styled-system/flexbox": ^5.0.5
-    "@styled-system/grid": ^5.0.5
-    "@styled-system/layout": ^5.0.5
-    "@styled-system/position": ^5.0.5
-    "@styled-system/shadow": ^5.0.5
-    "@styled-system/space": ^5.0.5
-    "@styled-system/typography": ^5.0.5
-    "@styled-system/variant": ^5.0.5
-    object-assign: ^4.1.1
-  checksum: e66467912cdaa471e3e2bfa8bc0b681e61764bb7e7fcc35a61317066c4579434d99cbe4d0f9f04c21d9ed8f0039edaddbfe1f2104cccaf40aca76b33f2e136e8
-  languageName: node
-  linkType: hard
-
-"styled-system@npm:^5.0.12":
+"styled-system@npm:5.1.5, styled-system@npm:^5.1.5":
   version: 5.1.5
   resolution: "styled-system@npm:5.1.5"
   dependencies:
@@ -7259,13 +7254,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"thousands@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "thousands@npm:1.0.1"
-  checksum: 99e0aa7c38d8e73801e90ce82477d232e713886cf219662e47e2e9105b86ff520932654f6f7f63175a7c6798f05a8724045d756041feafa633c25428218f0b2e
-  languageName: node
-  linkType: hard
-
 "through2@npm:^2.0.0":
   version: 2.0.5
   resolution: "through2@npm:2.0.5"
@@ -7339,9 +7327,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"toasted-notes@npm:3.0.0":
-  version: 3.0.0
-  resolution: "toasted-notes@npm:3.0.0"
+"toasted-notes@npm:3.2.0":
+  version: 3.2.0
+  resolution: "toasted-notes@npm:3.2.0"
   dependencies:
     "@reach/alert": ^0.1.2
     "@types/react": ^16.8.10
@@ -7349,7 +7337,14 @@ fsevents@~2.1.2:
   peerDependencies:
     react: ^16.8.4
     react-dom: ^16.8.4
-  checksum: 8399f9f0425da4463290f4082406baf86145dc96347d4d5db0792e3d231eef5b2118d49f089a3217568874cc79f3d179f07a453f937f9f1a43e0de25b4682885
+  checksum: 60ee0cb1b4255307be95f4d23a390fe9c7cc124f7777e6775ef3bff0d427099fde1cd2468b84a0289508007bdc14b1454ef5782e53fae11c49c4772731c7521d
+  languageName: node
+  linkType: hard
+
+"toggle-selection@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "toggle-selection@npm:1.0.6"
+  checksum: c47702aad780581f17367c413c4dc55b61a31b0c15c87a08461f4c4618457b11efce8ad9a7bf7b79fb23d17128b1c7da9248647a34dd15ae36c9afbdd2084d9f
   languageName: node
   linkType: hard
 
@@ -7389,10 +7384,17 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.0.0, tslib@npm:^1.9.0, tslib@npm:^1.9.3":
+"tslib@npm:^1.0.0, tslib@npm:^1.11.2, tslib@npm:^1.9.0, tslib@npm:^1.9.3":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: f44fe7f216946b17d3e3074df3746372703cf24e9127b4c045511456e8e4bf25515fb0a1bb3937676cc305651c5d4fcb6377b0588a4c6a957e748c4c28905d17
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.0.0":
+  version: 2.0.3
+  resolution: "tslib@npm:2.0.3"
+  checksum: 447bfca5deaa157806c3f77eaba74d05dd0b38b014e47ce79d98b5c77ce7d91b00a687ba13ca1b5a74d35ca1098ac7a072c0a97fad06f0266612f2a03a6c8e8f
   languageName: node
   linkType: hard
 
@@ -7444,6 +7446,26 @@ fsevents@~2.1.2:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: c9ef0176aaf32593514c31e5c6edc1db970847aff6e1f0a0570a6ac0cc996335792f394c2fcec59cc76691d22a01888ea073a2f3c6930cfcf7c519addf4e2ad7
+  languageName: node
+  linkType: hard
+
+typescript@^4.0.5:
+  version: 4.0.5
+  resolution: "typescript@npm:4.0.5"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: ce94d4bbb914cc9d6fbd42e1476ab18c3292b262b8ba7ba76cd167a858545207a604e75bf1efbb75b8654c8f85deaa19795c3ef00098d7612855139b4ecc0240
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^4.0.5#builtin<compat/typescript>":
+  version: 4.0.5
+  resolution: "typescript@patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5b02a2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: d4be0bd2a2050b2d7b132cb2a40329178f181543e9d2ac6d1f06babd9f047208558a736a7effdeb28759ae2e815f070b61d10ee2f02cc93a6221a1490f21ffce
   languageName: node
   linkType: hard
 
@@ -7676,6 +7698,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"warning@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "warning@npm:4.0.3"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: 20ef5d29ff9c20af3060e504914a00d5a90ce346e75e6691efbedb540481cdc82070c966d75195f812de64bb0bd7f1b02315fcb52469db151c0f15e29002781c
+  languageName: node
+  linkType: hard
+
 "watchpack-chokidar2@npm:^2.0.0":
   version: 2.0.0
   resolution: "watchpack-chokidar2@npm:2.0.0"
@@ -7809,13 +7840,19 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "with-chakra-ui@workspace:."
   dependencies:
-    "@chakra-ui/core": ^0.5.2
+    "@babel/runtime": ^7.12.1
+    "@chakra-ui/core": ^0.8.0
     "@emotion/core": ^10.0.27
     "@emotion/styled": ^10.0.27
+    "@types/node": ^14.14.5
+    "@types/react": ^16.9.54
     emotion-theming: ^10.0.27
     next: ^9.1.7
+    prop-types: ^15.7.2
     react: ^16.12.0
     react-dom: ^16.12.0
+    react-spring: ^8.0.27
+    typescript: ^4.0.5
   languageName: unknown
   linkType: soft
 
